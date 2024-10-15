@@ -25,3 +25,23 @@
 .cart-items-item .cross {
   cursor: pointer;
 }
+.cart-bottom {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: max(12vw, 20px);
+}
+.cart-total {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+.cart-total hr {
+  margin: 10px 0px;
+}
